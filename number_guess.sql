@@ -90,15 +90,27 @@ ALTER TABLE ONLY public.users ALTER COLUMN user_id SET DEFAULT nextval('public.u
 -- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.users VALUES (1, 'james', 0, NULL);
 INSERT INTO public.users VALUES (2, 'JAMES', 0, NULL);
+INSERT INTO public.users VALUES (4, 'user_1745218561770', 2, 377);
+INSERT INTO public.users VALUES (3, 'user_1745218561771', 5, 110);
+INSERT INTO public.users VALUES (6, 'user_1745218698965', 2, 460);
+INSERT INTO public.users VALUES (5, 'user_1745218698966', 5, 264);
+INSERT INTO public.users VALUES (8, 'user_1745219110190', 2, 329);
+INSERT INTO public.users VALUES (7, 'user_1745219110191', 5, 54);
+INSERT INTO public.users VALUES (10, 'user_1745219186045', 2, 27);
+INSERT INTO public.users VALUES (9, 'user_1745219186046', 5, 345);
+INSERT INTO public.users VALUES (12, 'user_1745219504188', 2, 797);
+INSERT INTO public.users VALUES (11, 'user_1745219504189', 5, 240);
+INSERT INTO public.users VALUES (1, 'james', 4, 6);
+INSERT INTO public.users VALUES (14, 'user_1745220865098', 2, 189);
+INSERT INTO public.users VALUES (13, 'user_1745220865099', 5, 491);
 
 
 --
 -- Name: users_user_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.users_user_id_seq', 2, true);
+SELECT pg_catalog.setval('public.users_user_id_seq', 14, true);
 
 
 --
